@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "844021665748",
+    "firebase_url": "https://campus-swift-default-rtdb.firebaseio.com",
+    "project_id": "campus-swift",
+    "storage_bucket": "campus-swift.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844021665748:android:c802ee7810c97b10a9d041",
+        "android_client_info": {
+          "package_name": "org.kmonsters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844021665748-pmcku27om0qbo9usb0ek550st4u2rrsj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.kmonsters",
+            "certificate_hash": "81951e1eea94d07697699901eacefec5f4e273ac"
+          }
+        },
+        {
+          "client_id": "844021665748-m8vq2tl8bnrc9s7odp14jtu0uap6i7ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClzo9tldb18FGdKE2Vb_U_CXAvSPcywVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844021665748-8gdmj9heth6ggeddd1qumvl0i06ou8dg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

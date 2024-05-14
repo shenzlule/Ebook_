@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_weight="1"
+        android:background="@color/white"
+        app:cardCornerRadius="10dp"
+        android:outlineSpotShadowColor="@color/white"
+        app:cardElevation="7dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+
+
+        <ImageView
+            android:id="@+id/clothingImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/pdficon" />
+
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_below="@+id/card"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:text="Price: $100"/>
+    <TextView
+        android:layout_below="@+id/amount"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pdf_name"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:text="pdf_name"/>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/buttons"
+        android:id="@+id/add_dash_cart"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pdf_name"
+       />
+
+</RelativeLayout>
